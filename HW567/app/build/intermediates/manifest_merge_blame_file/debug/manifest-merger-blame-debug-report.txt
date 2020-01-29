@@ -1,0 +1,64 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.hw567"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml
+10
+11    <application
+11-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:5:5-27:19
+12        android:allowBackup="true"
+12-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.0.1] /Users/devonnair/.gradle/caches/transforms-2/files-2.1/72b2b92ec4ab73ff21fb9bc348de3b22/core-1.0.1/AndroidManifest.xml:22:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:10:9-35
+19        android:theme="@style/AppTheme" >
+19-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:11:9-40
+20        <activity android:name="com.example.hw567.UpdateActivity" />
+20-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:12:9-61
+20-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:12:19-49
+21        <activity android:name="com.example.hw567.DeleteActivity" />
+21-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:13:9-52
+21-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:13:19-49
+22        <activity android:name="com.example.hw567.EntryActivity" />
+22-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:14:9-51
+22-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:14:19-48
+23        <activity android:name="com.example.hw567.MainActivity" >
+23-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:15:9-21:20
+23-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:15:19-47
+24            <intent-filter>
+24-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:16:13-20:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:17:17-69
+25-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:17:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:19:17-77
+27-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:19:27-74
+28            </intent-filter>
+29        </activity>
+30
+31        <service
+31-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:23:9-26:39
+32            android:name="com.example.hw567.SongService"
+32-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:24:13-40
+33            android:enabled="true"
+33-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:25:13-35
+34            android:exported="true" />
+34-->/Users/devonnair/Desktop/CS453 Mobile/Homework/HW567/app/src/main/AndroidManifest.xml:26:13-36
+35    </application>
+36
+37</manifest>
